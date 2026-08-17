@@ -1,0 +1,16 @@
+{
+  "system_meta": {
+    "environment": "production-mesh-local",
+    "region": "asia-south-1",
+    "version": "1.0.0"
+  },
+  "mesh_fabric_settings": {
+    "default_buffer_capacity": 500,
+    "lock_timeout_seconds": 2.0,
+    "metrics_refresh_hz": 1.0
+  },
+  "automation_thresholds": {
+    "cpu_critical_pct": 90.0,
+    "memory_leak_max_bytes": 268435456
+  }
+}
